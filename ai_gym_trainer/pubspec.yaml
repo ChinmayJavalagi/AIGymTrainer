@@ -6,7 +6,7 @@ description: A new Flutter project.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
-# A version number is three numbers separated by dots, like 1.2.43
+# A version number is three num![](C:/Users/User/Downloads/image1.png)bers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
 # Both the version and the builder number may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
@@ -35,6 +35,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^1.0.3
+  tflite: ^1.1.2
+  camera: ^0.10.0+1
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +66,13 @@ flutter:
     - assets/images/Stretch-bro.png
     - assets/images/Weights-amico.png
     - assets/icons/Arrow-Right.svg
+    - assets/model.tflite
+    - assets/model2.tflite
+    - assets/labels.txt
+    - assets/images/image1.png
+    - assets/images/image2.png
+    - assets/images/image3.png
+    - assets/images/gymphoto.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
